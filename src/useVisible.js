@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const useVisible = (target, threshold = 0.55) => {
+export const useVisible = (target, threshold = 0.55) => {
     const [flag, setFlag] = useState(false);
     useEffect(() => {
         const observer = new IntersectionObserver(
@@ -25,5 +25,3 @@ const useVisible = (target, threshold = 0.55) => {
     },[setFlag, threshold, target]);
     return flag;
 }
-
-export default useVisible;
