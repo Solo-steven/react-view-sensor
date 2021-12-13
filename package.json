@@ -5,6 +5,13 @@
   "author": "Solo-steven",
   "license": "MIT",
   "main": "./src/useVisible.js",
+  "keywords": [
+    "react",
+    "hooks",
+    "viewport",
+    "dom-visible",
+    "intersectionObserver"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/Solo-steven/react-view-sensor"
